@@ -1,0 +1,272 @@
+header {
+    position: relative;
+    height: 500px; 
+    background-image: url('../images/banner-bk.jpg');
+    background-size: cover; /* Para cubrir todo el área del header */
+    background-position: center; 
+}
+.content >img{
+  width: 10%;
+}
+body{
+  overflow-x: hidden;
+    margin: 0;
+  
+}
+  .container-title {
+    display: flex; 
+    align-items: center; 
+    height: 480px; 
+    font-family: "Archivo Black", sans-serif;
+      }
+      
+  .content {
+    text-align: left; /* Alinea el texto a la izquierda */
+    display: flex; 
+    flex-direction: column; /* Apila los elementos verticalmente */
+    padding-left: 10%;
+    color: white;
+  }
+  
+  .content button {
+    margin-top: 10px; 
+    width: 25%;
+    height: 3rem;
+    border-radius: 30px;
+    background-color:#00ffad; 
+  }
+  .containers h1{
+    margin-top: 60px; 
+    text-align: center;
+    font-size: 30px;
+  }
+  .containers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .container-1{
+    margin: 40px;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+  }
+  .container-body button {
+    margin-top: 10px; 
+    width: 12%;
+    height: 3rem;
+    border-radius: 90px;
+    background-color:#192440;
+    color: white;
+    
+  }
+  .trapecio {
+    width: 100vw;
+    height: 60rem;
+    background-color: #00ffac;
+    clip-path: polygon(0 51%, 100% 0%, 200% 100%, 0% 100%);
+    margin-top: -10%;
+  }
+  .container-body img{
+    position: absolute;
+    top: 223%;
+    right: 15%;
+    transform: translateY(-50%);
+  }
+  .text{
+    padding-left: 9%;
+    margin-top: 10%;
+  }
+  .text >h1{
+    font-size: 30px;
+  }
+  .conainer-two img{
+    position: absolute;
+    top: 299%;
+    left: 10%;
+    transform: translateY(-50%);
+  }
+  .text2 {
+    position: absolute;
+    padding-left: 60%;
+    top: 268%;
+  }
+  .text2 >h1{
+    font-size: 39px;
+  }
+  .conainer-two button{
+    margin-top: 12px; 
+    width: 40%;
+    height: 3rem;
+    border-radius: 90px;
+    background-color:#192440;
+    color: white;
+  }
+  .containers-body h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4%;
+  }
+  .title-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2%;
+    font-size: 25px;
+  }
+  .containers-body{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin-top: 2%;
+    height: 390px;
+   
+  }
+  .container1{
+    margin-left: 100px;
+    margin-right: 110px;
+    
+  }
+  .container2{
+    color: white;
+   background-color: #192440;
+  padding-left: 3%;
+  padding-right: 3%;
+   margin-left: 100px;
+   margin-right: 50px;
+  }
+  .container3{
+    margin-left: 110px;
+    margin-right: 100px;
+  }
+  .container1 button{
+    margin-top: 10px; 
+    width: 75%;
+    height: 2rem;
+    border-radius: 30px;
+    border-bottom: 2px solid black;
+  }
+  .container2 button{
+    margin-top: 10px; 
+    width: 75%;
+    height: 2rem;
+    border-radius: 30px;
+    background-color:#00ffad; 
+  }
+  .container3 button{
+    margin-top: 10px; 
+    width: 55%;
+    height: 2rem;
+    border-radius: 30px;
+    border-bottom: 2px solid black;
+  }
+  span{
+font-size: 60px;
+  }
+  .pricing p{
+    font-size: 20px;
+  }
+  .container-logo{
+  height: 160px;
+  background-color: #eceeef;
+  margin-top: 70px; 
+  display: flex;
+  justify-content: center;
+  }
+  .container-logo img{
+    margin: 50px;
+  }
+  footer {
+    position: relative;
+    height: 560px; 
+    background-image: url('../images/contact-bk.jpg');
+    background-size: cover; /* Para cubrir todo el área del header */
+    background-position: center;
+   }
+   .color{
+    background-color: #192440;
+    top: 547%;
+    position: absolute;
+    height: 15%;
+    width: 100%;
+   }
+   .color >h4{
+    color:white;
+    font-size: 17px;
+    margin: 40px;
+    padding-left: 7%;
+   }
+   .color >.icon{
+    position: absolute;
+    top: 10%;
+    margin-left: 75%;
+   }
+   .icon >img{
+    display: inline-block;
+    margin: 20px;
+   }
+   .container-form {
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+    margin: 190px;
+  }
+  .container-form > textarea{
+   width: 20rem;
+   background-color: transparent;
+  }
+  
+  .form {
+    width: 300px; /* Ancho del formulario */
+  }
+  
+  .cluster {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .field {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .field label {
+    display: block;
+    margin-bottom: 10px;
+  }
+ .container-form label{
+    color: #00ffad;
+    
+  }
+ input{
+    padding: 10px;
+    border: 1px solid #00ffad;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: transparent;
+  }
+  textarea {
+    background-color: transparent;
+    border: 1px solid #00ffad;
+    width: 390px;
+    margin-top: 10px;
+  }
+  .message{
+    margin-top: 10%;
+  }
+  .button >input{
+    width: 400px;
+    border-radius: 15px;
+    background-color: #00ffac;
+  }
+  
+
+ 
+  
